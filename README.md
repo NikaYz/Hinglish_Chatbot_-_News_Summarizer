@@ -25,19 +25,24 @@ Since the code are in notebook one can run them in colab but make sure to run it
 
 ## Usage Instructions
 
+To access the models, there is a file named `Models-access.txt`, which contains links to the trained models. You can download the models from there for inference.
+
 To get started with the project, follow the instructions in the Jupyter notebooks:
 
-1. **Open the Jupyter notebooks**: `Hinglish-Chatbot.ipynb`, `New-Summarizer.ipynb` to explore the implementation.
-   
-2. **Load the models and tokenizers** in `INFER.ipynb`: 
+1. **Open the Jupyter notebooks**: 
+   - `Hinglish-Chatbot.ipynb`: Explore the implementation for training and interacting with the Hinglish chatbot.
+   - `New-Summarizer.ipynb`: Explore the implementation for the news summarization task.
 
-3. **Data preprocessing**: 
-   - Preprocess the data as per the notebook instructions to prepare it for the model.
+2. **Load the models and tokenizers**: 
+   - In `INFER.ipynb`, load the pre-trained models and their respective tokenizers for both tasks (Hinglish chatbot and news summarization).
+
+3. **Data preprocessing**:
+   - Follow the instructions in the notebook to preprocess the data for each task and make it ready for model inference.
 
 4. **Run inference**: 
    - Use the provided functions to interact with the chatbot and generate responses.
-   - For the news summarization task, use the provided functions to generate summaries for news articles.
-     
+   - For news summarization, use the provided functions to generate summaries for the input news articles.
+
 ## Future Improvements
 
 - **Training on Larger Datasets**:
